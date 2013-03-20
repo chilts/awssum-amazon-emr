@@ -60,7 +60,7 @@ var Emr = function(opts) {
 };
 
 // inherit from Amazon
-util.inherits(Emr, amazon.Amazon);
+util.inherits(Emr, amazon.AmazonSignatureV2);
 
 // --------------------------------------------------------------------------------------------------------------------
 // methods we need to implement from awssum.js/amazon.js
