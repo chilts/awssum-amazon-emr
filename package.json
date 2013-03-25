@@ -1,6 +1,6 @@
 {
     "name" : "awssum-amazon-emr",
-    "description" : "NodeJS module to talk to Amazon Elastic MapReduce (EMR).",
+    "description" : "AwsSum plugin for Amazon Elastic MapReduce (EMR).",
     "version" : "1.0.0",
 
     "main" : "awssum-amazon-emr.js",
