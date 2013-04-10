@@ -43,6 +43,6 @@
         "url" : "http://github.com/awssum/awssum-amazon-emr/raw/master/LICENSE"
     }],
     "keywords" : [
-        "awssum", "awssum-plugin", "amazon", "aws", "webapi", "api", "emr"
+        "awssum", "awssum-plugin", "amazon", "aws", "webapi", "api", "emr", "elastic mapreduce"
     ]
 }
