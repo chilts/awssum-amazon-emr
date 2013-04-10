@@ -38,7 +38,7 @@ endPoint[amazon.AP_SOUTHEAST_1] = "elasticmapreduce.ap-southeast-1.amazonaws.com
 endPoint[amazon.AP_SOUTHEAST_2] = "elasticmapreduce.ap-southeast-2.amazonaws.com";
 endPoint[amazon.AP_NORTHEAST_1] = "elasticmapreduce.ap-northeast-1.amazonaws.com";
 endPoint[amazon.SA_EAST_1]      = "elasticmapreduce.sa-east-1.amazonaws.com";
-// endPoint[amazon.US_GOV_WEST_1]  = "";
+endPoint[amazon.US_GOV_WEST_1]  = "elasticmapreduce.us-gov-west-1.amazonaws.com";
 
 var version = '2009-03-31';
 
@@ -82,6 +82,17 @@ _.each(operations, function(operation, operationName) {
 
 // --------------------------------------------------------------------------------------------------------------------
 // exports
+
+// endpoints
+exports.US_EAST_1      = amazon.US_EAST_1;
+exports.US_WEST_1      = amazon.US_WEST_1;
+exports.US_WEST_2      = amazon.US_WEST_2;
+exports.EU_WEST_1      = amazon.EU_WEST_1;
+exports.AP_SOUTHEAST_1 = amazon.AP_SOUTHEAST_1;
+exports.AP_SOUTHEAST_2 = amazon.AP_SOUTHEAST_2;
+exports.AP_NORTHEAST_1 = amazon.AP_NORTHEAST_1;
+exports.SA_EAST_1      = amazon.SA_EAST_1;
+exports.US_GOV_WEST_1  = amazon.US_GOV_WEST_1;
 
 exports.Emr = Emr;
 
