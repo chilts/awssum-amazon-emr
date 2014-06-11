@@ -1,7 +1,7 @@
 {
   "name": "awssum-amazon-emr",
   "description": "AwsSum plugin for Amazon Elastic MapReduce (EMR).",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "awssum-amazon-emr.js",
   "engines": {
     "node": ">= 0.6.0"
